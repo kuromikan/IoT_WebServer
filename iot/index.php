@@ -161,7 +161,6 @@ tr:nth-child(even){background-color: #f2f2f2}
   
 </div>
 <div id="line_top_x"></div>
-<div id="line_top_y"></div>
 <div class="footer">
 </div>
 
