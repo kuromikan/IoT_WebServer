@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <?php
+header("refresh:5");
 $options = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',); 
 $dbh = new PDO('mysql:host=localhost;dbname=iot',"root","pswd",$options);
 $dht_all=array();$temp_all=array();$humi_all=array();
